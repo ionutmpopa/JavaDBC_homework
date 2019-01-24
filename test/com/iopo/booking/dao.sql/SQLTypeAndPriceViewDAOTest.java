@@ -93,7 +93,7 @@ public class SQLTypeAndPriceViewDAOTest {
 
         Assert.assertArrayEquals(new TypeAndPriceView[]{typeAndPriceView1, typeAndPriceView2}, roomPrices.toArray());
 
-        roomPrices.forEach(s -> System.out.println(s));
+        roomPrices.forEach(typeAndValue -> System.out.println(typeAndValue));
     }
 
 }
